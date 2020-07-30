@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_preferences_settings"
+        app:title="@string/settings_header">
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/appearance_entries"
+            app:entryValues="@array/appearance_values"
+            app:icon="@drawable/ic_preferences_night"
+            app:key="appearance"
+            app:title="@string/night_mode_title"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:icon="@drawable/ic_preferences_lock"
+            app:key="private"
+            app:title="@string/private_title" />
+        <EditTextPreference
+            app:dependency="private"
+            app:key="user"
+            app:title="User" />
+        <EditTextPreference
+            app:dependency="user"
+            app:key="password"
+            app:shouldDisableView="true"
+            app:title="Password" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

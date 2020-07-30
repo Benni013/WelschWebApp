@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cloud"
+            android:icon="@drawable/ic_menu_cloud"
+            android:title="@string/menu_cloud" />
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_menu_statistics"
+            android:title="@string/menu_statistics" />
+        <item
+            android:id="@+id/nav_pihole"
+            android:icon="@drawable/ic_menu_pihole"
+            android:title="@string/menu_pihole" />
+        <item
+            android:id="@+id/nav_website"
+            android:icon="@drawable/ic_menu_public"
+            android:title="@string/menu_website" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_menu_info"
+            android:title="@string/menu_php_info" />
+    </group>
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_cloud">
+
+    <fragment
+        android:id="@+id/nav_cloud"
+        android:name="com.benwelsch.welschwebapp.ui.CloudFragment"
+        android:label="@string/menu_cloud"
+        tools:layout="@layout/fragment_cloud" />
+
+    <fragment
+        android:id="@+id/nav_statistics"
+        android:name="com.benwelsch.welschwebapp.ui.StatisticsFragment"
+        android:label="@string/menu_statistics"
+        tools:layout="@layout/fragment_statistics" />
+
+    <fragment
+        android:id="@+id/nav_pihole"
+        android:name="com.benwelsch.welschwebapp.ui.PiholeFragment"
+        android:label="@string/menu_pihole"
+        tools:layout="@layout/fragment_pihole" />
+
+    <fragment
+        android:id="@+id/nav_website"
+        android:name="com.benwelsch.welschwebapp.ui.WebsiteFragment"
+        android:label="@string/menu_website"
+        tools:layout="@layout/fragment_website" />
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.benwelsch.welschwebapp.ui.InfoFragment"
+        android:label="@string/menu_php_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>
