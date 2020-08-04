@@ -1,8 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WelschWebApp</string>
-    <string name="nav_header_title">WelschWebApp</string>
-    <string name="nav_header_subtitle">https://github.com/Benni013/WelschWebApp</string>
-    <string name="nav_header_desc">Navigation header</string>
+    <string name="app_name" translatable="false">WelschWebApp</string>
+    <string name="nav_header_subtitle" translatable="false">https://github.com/Benni013/WelschWebApp</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
     <string name="action_settings">Settings</string>
 
     <!-- Fragment Titles -->
@@ -17,4 +17,9 @@
     <string name="settings_header">Settings</string>
     <string name="night_mode_title">Night mode</string>
     <string name="private_title">Private Access</string>
+    <string name="automatic">Automatic</string>
+    <string name="day">Day</string>
+    <string name="night">Night</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
 </resources>

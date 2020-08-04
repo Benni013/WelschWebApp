@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Einstellungen</string>
+
+    <!-- Fragment Titles -->
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="menu_cloud">Cloud</string>
+    <string name="menu_statistics">Statistiken</string>
+    <string name="menu_pihole">Pi-hole</string>
+    <string name="menu_website">Website</string>
+    <string name="menu_php_info">PHP Info</string>
+
+    <!-- Preferences -->
+    <string name="settings_header">Einstellungen</string>
+    <string name="night_mode_title">Nachtmodus</string>
+    <string name="private_title">Privater Zugriff</string>
+    <string name="automatic">Automatisch</string>
+    <string name="day">Tag</string>
+    <string name="night">Nacht</string>
+    <string name="user">Nutzer</string>
+    <string name="password">Passwort</string>
+</resources>

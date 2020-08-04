@@ -24,7 +24,7 @@ class StatisticsFragment : Fragment() {
         webView.settings.builtInZoomControls = true
         webView.settings.displayZoomControls = false
         webView.settings.setSupportZoom(true)
-        webView.loadUrl("https://www.server-bw.de/nginx-report.html")
+        webView.loadUrl("https://www.benwelsch.com/nginx-report.html")
         webView.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(viewx: WebView, urlx: String): Boolean {
                 viewx.loadUrl(urlx)

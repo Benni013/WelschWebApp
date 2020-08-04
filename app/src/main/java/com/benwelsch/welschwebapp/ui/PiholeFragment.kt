@@ -24,7 +24,7 @@ class PiholeFragment : Fragment() {
         webView.settings.builtInZoomControls = true
         webView.settings.displayZoomControls = false
         webView.settings.setSupportZoom(true)
-        webView.loadUrl("https://www.server-bw.de/admin")
+        webView.loadUrl("https://www.benwelsch.com/admin")
         webView.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(viewx: WebView, urlx: String): Boolean {
                 viewx.loadUrl(urlx)

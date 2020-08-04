@@ -24,7 +24,7 @@ class WebsiteFragment : Fragment() {
         webView.settings.builtInZoomControls = true
         webView.settings.displayZoomControls = false
         webView.settings.setSupportZoom(true)
-        webView.loadUrl("https://www.server-bw.de/web-programming")
+        webView.loadUrl("https://wiki.benwelsch.com")
         webView.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(viewx: WebView, urlx: String): Boolean {
                 viewx.loadUrl(urlx)
@@ -38,7 +38,7 @@ class WebsiteFragment : Fragment() {
                 if (sharedPreferences.getBoolean("private", true) && user != "" && password != "") {
                     handler.proceed(user, password)
                 } else {
-                    webView.loadUrl("https://school.server-bw.de")
+                    super.onReceivedHttpAuthRequest(view, handler, host, realm)
                 }
             }
         }

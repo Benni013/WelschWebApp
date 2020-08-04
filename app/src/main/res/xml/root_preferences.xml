@@ -18,12 +18,12 @@
         <EditTextPreference
             app:dependency="private"
             app:key="user"
-            app:title="User" />
+            app:title="@string/user" />
         <EditTextPreference
             app:dependency="user"
             app:key="password"
             app:shouldDisableView="true"
-            app:title="Password" />
+            app:title="@string/password" />
     </PreferenceCategory>
 
 </PreferenceScreen>

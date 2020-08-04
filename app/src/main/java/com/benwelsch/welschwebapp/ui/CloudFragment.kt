@@ -22,7 +22,7 @@ class CloudFragment : Fragment() {
         webView.settings.builtInZoomControls = true
         webView.settings.displayZoomControls = false
         webView.settings.setSupportZoom(true)
-        webView.loadUrl("https://cloud.server-bw.de")
+        webView.loadUrl("https://cloud.benwelsch.com")
         webView.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(viewx: WebView, urlx: String): Boolean {
                 viewx.loadUrl(urlx)

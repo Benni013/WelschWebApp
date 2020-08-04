@@ -1,9 +1,9 @@
 <resources>
-    <!-- Reply Preference -->
+    <!-- Appearance Preference -->
     <string-array name="appearance_entries">
-        <item>Automatic</item>
-        <item>Day</item>
-        <item>Night</item>
+        <item>@string/automatic</item>
+        <item>@string/day</item>
+        <item>@string/night</item>
     </string-array>
 
     <string-array name="appearance_values">

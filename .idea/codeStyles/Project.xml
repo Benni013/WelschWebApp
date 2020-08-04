@@ -4,25 +4,25 @@
       <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
     </JetCodeStyleSettings>
     <codeStyleSettings language="Groovy">
-      <option name="RIGHT_MARGIN" value="127" />
+      <option name="RIGHT_MARGIN" value="255" />
     </codeStyleSettings>
     <codeStyleSettings language="HTML">
-      <option name="RIGHT_MARGIN" value="127" />
+      <option name="RIGHT_MARGIN" value="255" />
     </codeStyleSettings>
     <codeStyleSettings language="JAVA">
-      <option name="RIGHT_MARGIN" value="127" />
+      <option name="RIGHT_MARGIN" value="255" />
     </codeStyleSettings>
     <codeStyleSettings language="JSON">
-      <option name="RIGHT_MARGIN" value="127" />
+      <option name="RIGHT_MARGIN" value="255" />
     </codeStyleSettings>
     <codeStyleSettings language="Markdown">
-      <option name="RIGHT_MARGIN" value="127" />
+      <option name="RIGHT_MARGIN" value="255" />
     </codeStyleSettings>
     <codeStyleSettings language="ObjectiveC">
-      <option name="RIGHT_MARGIN" value="127" />
+      <option name="RIGHT_MARGIN" value="255" />
     </codeStyleSettings>
     <codeStyleSettings language="XML">
-      <option name="RIGHT_MARGIN" value="127" />
+      <option name="RIGHT_MARGIN" value="255" />
       <indentOptions>
         <option name="CONTINUATION_INDENT_SIZE" value="4" />
       </indentOptions>
@@ -136,7 +136,7 @@
     </codeStyleSettings>
     <codeStyleSettings language="kotlin">
       <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
-      <option name="RIGHT_MARGIN" value="127" />
+      <option name="RIGHT_MARGIN" value="255" />
     </codeStyleSettings>
   </code_scheme>
 </component>
