@@ -2,7 +2,13 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@+id/nav_cloud">
+    app:startDestination="@+id/nav_website">
+
+    <fragment
+        android:id="@+id/nav_website"
+        android:name="com.benwelsch.welschwebapp.ui.WebsiteFragment"
+        android:label="@string/menu_website"
+        tools:layout="@layout/fragment_website" />
 
     <fragment
         android:id="@+id/nav_cloud"
@@ -21,12 +27,6 @@
         android:name="com.benwelsch.welschwebapp.ui.PiholeFragment"
         android:label="@string/menu_pihole"
         tools:layout="@layout/fragment_pihole" />
-
-    <fragment
-        android:id="@+id/nav_website"
-        android:name="com.benwelsch.welschwebapp.ui.WebsiteFragment"
-        android:label="@string/menu_website"
-        tools:layout="@layout/fragment_website" />
 
     <fragment
         android:id="@+id/nav_info"
